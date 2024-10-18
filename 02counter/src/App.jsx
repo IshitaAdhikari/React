@@ -46,6 +46,6 @@ function App() {
     >Remove value</button>
     </>
   )
-}
+}       
 
 export default App
