@@ -34,6 +34,7 @@ function InputBox({
       placeholder="Amount"
       disabled = {amountDisable}
       value={amount}
+      // we used && to check if it exists or not
       onChange={(e) => onAmountChange && onAmountChange(Number(e.target.value))}
        />
        </div>
