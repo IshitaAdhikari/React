@@ -1,6 +1,9 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
 
+//In place of <a> tag we use Link beacuse <a>tag reloades the whole page
+//NavLink gives us more additional things
+
 export default function Header() {
   return (
       <header className="shadow sticky z-50 top-0">

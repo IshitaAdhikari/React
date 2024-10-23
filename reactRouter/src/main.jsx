@@ -43,7 +43,8 @@ const router = createBrowserRouter(
     <Route 
     path='github' 
     element={<Github />}
-    loader= {githubInfoLoader}
+    loader= {githubInfoLoader} 
+    //when we have to fetch a data from a api we use this for optimization
     />
     </Route>
   )
